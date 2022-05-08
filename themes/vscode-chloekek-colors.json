@@ -1,0 +1,79 @@
+{
+    "name": "Chloé Kekoa’s colors",
+    "type": "dark",
+    "colors": {
+        "editor.background": "#111111"
+    },
+    "tokenColors": [
+        {
+            "scope": [
+                "comment",
+                "meta.attribute"
+            ],
+            "settings": {
+                "foreground": "#40352C"
+            }
+        },
+        {
+            "scope": ["entity.name.function"],
+            "settings": {
+                "foreground": "#64732F"
+            }
+        },
+        {
+            "scope": [
+                "entity.name.tag",
+                "entity.name.type",
+                "support.class",
+                "support.type.builtin",
+                "support.type.primitive"
+            ],
+            "settings": {
+                "foreground": "#34401A"
+            }
+        },
+        {
+            "scope": ["entity.name.namespace"],
+            "settings": {
+                "foreground": "#8C7B26",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "scope": [
+                "keyword.operator",
+                "punctuation"
+            ],
+            "settings": {
+                "foreground": "#F2CEAE"
+            }
+        },
+        {
+            "scope": [
+                "keyword.control",
+                "keyword.other",
+                "storage",
+                "variable.language"
+            ],
+            "settings": {
+                "foreground": "#D9A78B",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "scope": [
+                "constant",
+                "string"
+            ],
+            "settings": {
+                "foreground": "#D9665B"
+            }
+        },
+        {
+            "scope": ["variable"],
+            "settings": {
+                "foreground": "#8C6954"
+            }
+        }
+    ]
+}

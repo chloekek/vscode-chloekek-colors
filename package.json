@@ -1,0 +1,21 @@
+{
+    "name": "vscode-chloekek-colors",
+    "version": "0.0.0",
+    "displayName": "Chloé Kekoa’s colors",
+    "publisher": "Chloé Kekoa",
+    "engines": {
+        "vscode": "^1.22.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Chloé Kekoa’s colors",
+                "uiTheme": "vs-dark",
+                "path": "./themes/vscode-chloekek-colors.json"
+            }
+        ]
+    }
+}
